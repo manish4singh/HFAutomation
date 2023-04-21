@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MOBILE_IOS_RH" parallel="none">
+    <!--    <parameter name="testEnvPath" value="src/test/resources/TestSuites/mobile/fusion/Android/test-env-MYT-UK.json"></parameter>-->
+    <parameter name="jsonFilePath"
+               value="src/test/resources/TestData/mobile/RHData.json"></parameter>
+    <test name="MOBILE_IOS_RH_Sample">
+        <classes>
+            <class name="com.hf.mobile.rh.tests.RH_Sample"/>
+        </classes>
+    </test>
+</suite>

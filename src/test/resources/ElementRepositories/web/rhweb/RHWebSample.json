@@ -1,0 +1,91 @@
+{
+  "authorname": "Nethaji",
+  "pageTitle": "RHSample",
+  "elements": {
+    "entEmailBox": {
+      "Web": "",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "searchBox": {
+      "Web": "xpath=//input[@title='Search']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "suggestionText": {
+      "Web": "xpath=//div[@role='option'][1]",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "entEmail": {
+      "Web": "id=session_email",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btnContinue": {
+      "Web": "name=commit",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "entPassword": {
+      "Web": "id=session_password",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btnSign_in": {
+      "Web": "xpath=//input[@value='Log In']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "btnGot_It": {
+      "Web": "xpath=//button[@name='got it submit button']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "linkOrganizations": {
+      "Web": "xpath=//*[contains(text(),'Organizations')]",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "linkUsers": {
+      "Web": "xpath=//a[contains(text(),'Users')]",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "entSearch": {
+      "Web": "id=user_email",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btn_Search": {
+      "Web": "xpath=//input[@value='Search']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "linkCoaches": {
+      "Web": "xpath=//a[contains(text(),'Coaches')]",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "linkCensus": {
+    "Web": "xpath=//a[contains(text(),'Census Management')]",
+    "Android": "",
+    "IOS": "",
+    "actionevent": "click,isPresent,isDisplayed"
+    }
+
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "authorname": "Nethaji",
+  "pageTitle": "RHSample",
+  "elements": {
+    "entEmailBox": {
+      "Web": "",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    }
+  }
+}

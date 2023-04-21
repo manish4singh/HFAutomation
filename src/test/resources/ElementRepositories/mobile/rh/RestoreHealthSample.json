@@ -1,0 +1,84 @@
+{
+  "authorname": "Nethaji",
+  "pageTitle": "RHSample",
+  "elements": {
+    "entEmailBox": {
+      "Web": "",
+      "Android": "id=com.restorehealth.android:id/login_email",
+      "IOS": "predicate=type=\"XCUIElementTypeTextField\"",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btnContinue": {
+      "Web": "",
+      "Android": "id=com.restorehealth.android:id/continue_button",
+      "IOS": "classchain=**/XCUIElementTypeStaticText[`label == \"Continue\"`]",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "btnChangeServer": {
+      "Web": "",
+      "Android": "xpath=//android.widget.Button[@text=\"Change Server\"]",
+      "IOS": "classchain=**/XCUIElementTypeStaticText[`label == \"Change Server\"`]",
+      "actionevent": "click,isDisplayed,isPresent"
+    },
+    "btnStaging": {
+      "Web": "",
+      "Android": "xpath=//android.widget.CheckedTextView[@text=\"Staging\"]",
+      "IOS": "accessibilityid=Staging",
+      "actionevent": "click,isDisplayed,isPresent"
+    },
+    "entPasswordBox": {
+      "Web": "",
+      "Android": "id=com.restorehealth.android:id/login_password",
+      "IOS": "predicate=type = \"XCUIElementTypeSecureTextField\"",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btnLogin": {
+      "Web": "",
+      "Android": "id=com.restorehealth.android:id/login_button",
+      "IOS": "classchain=**/XCUIElementTypeButton[`label == \"Log In\"`]",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "btnCancel": {
+      "Web": "",
+      "Android": "id=com.restorehealth.android:id/cancel_button",
+      "IOS": "classchain=**/XCUIElementTypeButton[`label == \"Cancel\"`]",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "btnMore": {
+      "Web": "",
+      "Android": "xpath=//android.widget.TextView[@text=\"More\"]",
+      "IOS": "classchain=**/XCUIElementTypeButton[`label == \"More\"`]",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "btnSettings": {
+      "Web": "",
+      "Android": "xpath=//android.widget.TextView[@text=\"Settings\"]",
+      "IOS": "classchain=**/XCUIElementTypeStaticText[`label == \"Settings\"`]",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "txtEmailSettings": {
+      "Web": "",
+      "Android": "id=com.restorehealth.android:id/prefs_email_address",
+      "IOS": "xpath=//XCUIElementTypeStaticText[@name=\"Email\"]/following-sibling::XCUIElementTypeStaticText[contains(@name,'.com')]",
+      "actionevent": "getText,isPresent,isDisplayed,verifyText"
+    },
+    "btnLogOut": {
+      "Web": "",
+      "Android": "xpath=//android.widget.TextView[@text=\"Log Out\"]",
+      "IOS": "classchain=**/XCUIElementTypeStaticText[`label == \"Log Out\"`]",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "popIwillDoLater": {
+      "Web": "",
+      "Android": "xpath=//android.widget.TextView[@text=\"I'll do it later\"]",
+      "IOS": "classchain=**/XCUIElementTypeStaticText[`label == \"I'll do it later\"`]",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "popCancelLogin": {
+      "Web": "",
+      "Android": "id=android:id/button2",
+      "IOS": "classchain=**/XCUIElementTypeStaticText[`label == \"I'll do it later\"`]",
+      "actionevent": "click,isPresent,isDisplayed"
+    }
+  }
+}

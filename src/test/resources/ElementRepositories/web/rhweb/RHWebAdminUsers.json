@@ -1,0 +1,61 @@
+{
+  "authorname": "Nethaji",
+  "pageTitle": "RHSample",
+  "elements": {
+
+    "entEmail": {
+      "Web": "id=session_email",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btnContinue": {
+      "Web": "name=commit",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "entPassword": {
+      "Web": "id=session_password",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btnSign_in": {
+      "Web": "xpath=//input[@value='Log In']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "btnGot_It": {
+      "Web": "xpath=//button[@name='got it submit button']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "linkUsers": {
+      "Web": "xpath=//a[contains(text(),'Users')]",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "entSearch": {
+      "Web": "id=user_email",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btn_Search": {
+      "Web": "xpath=//input[@value='Search']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "linkEdit": {
+    "Web": "xpath=//tr/td/a[contains(text(),'Edit')]",
+    "Android": "",
+    "IOS": "",
+    "actionevent": "click,isPresent,isDisplayed"
+    }
+  }
+}

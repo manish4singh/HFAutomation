@@ -1,0 +1,25 @@
+{
+  "modules": [
+    {
+      "modulename": "RH Login Test",
+      "authorname": "Nethaji",
+      "testdata": {
+        "rhMobileSample_Test": [
+          {
+            "loginEmail": "nptestiosrh@yopmail.com",
+            "loginPassword": "Password_1"
+          }
+        ],
+        "rhWebSample_Test": [
+          {
+            "firstname": "Nethaji",
+            "lastname": "Automation",
+            "email": "nptestrb",
+            "phone": "203-234-",
+            "weight": "321"
+          }
+        ]
+      }
+    }
+  ]
+}

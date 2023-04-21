@@ -1,0 +1,38 @@
+{
+  "authorname": "Nethaji",
+  "pageTitle": "RHSample",
+  "elements": {
+
+    "entEmail": {
+      "Web": "id=session_email",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btnContinue": {
+      "Web": "name=commit",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "entPassword": {
+      "Web": "id=session_password",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed,enterText"
+    },
+    "btnSign_in": {
+      "Web": "xpath=//input[@value='Log In']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    },
+    "btnGot_It": {
+      "Web": "xpath=//button[@name='got it submit button']",
+      "Android": "",
+      "IOS": "",
+      "actionevent": "click,isPresent,isDisplayed"
+    }
+
+  }
+}
